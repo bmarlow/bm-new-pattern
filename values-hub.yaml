@@ -40,7 +40,7 @@ clusterGroup:
           - /spec/loggingCA
     kafka:
       name: kafka
-      namespace: lab-cluster
+      namespace: lab-kafka
       project: lab-project
       path: charts/all/kafka
 
