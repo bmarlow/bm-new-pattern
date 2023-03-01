@@ -4,7 +4,7 @@ metadata:
   name: hello-world-view-deployments-role
   namespace: hello-world
   annotations:
-    argocd.argoproj.io/sync-hook: PreSync
+    argocd.argoproj.io/hook: PreSync
 rules:
   - apiGroups:
       - apps
